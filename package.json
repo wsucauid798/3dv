@@ -1,0 +1,44 @@
+{
+  "name": "3dv",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "preview": "vite preview --host 127.0.0.1",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@radix-ui/colors": "^3.0.0",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-dialog": "^2.7.1",
+    "@tauri-apps/plugin-fs": "^2.5.1",
+    "lucide-react": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.184.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^10.4.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "prettier": "^3.8.3",
+    "sass": "^1.100.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.59.4",
+    "vite": "^7.0.0"
+  }
+}

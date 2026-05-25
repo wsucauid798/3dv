@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+dist/
+
+# Tauri / Rust build output
+src-tauri/target/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Agent / AI assistant files
+**/AGENTS.md
+**/CLAUDE.md
+
+# AI IDE / assistant folders
+.claude/
+.cursor/
+.windsurf/
+.continue/
+.cody/
+.aider/
+
+# Internal design/docs work areas
+/_design/
+/_docs/
